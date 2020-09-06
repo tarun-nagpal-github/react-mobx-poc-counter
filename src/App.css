@@ -16,10 +16,10 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Sample Css for button */
+button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.counterContainer {
+  /* width: 40%; */
+    float: left;
+    border: 2px solid;
+    margin-right: 20%;
+    margin-left: 5%;
+}
+
+.buttonCounter{
+  
 }

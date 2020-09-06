@@ -1,0 +1,19 @@
+
+/* Some Sample CSS for Card */
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px #cc7676 solid;
+  }
+  
+  .header {
+    height: 30%;
+    background: #cc7676;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
